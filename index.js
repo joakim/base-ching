@@ -1,7 +1,7 @@
-// prettier-ignore
 // const MONOGRAMS = '⚊⚋' // 3-byte binary monograms (Yin/Yang, reversed binary order)
 // const DIGRAMS = '⚌⚍⚎⚏' // 3-byte binary digrams (Yin/Yang, reversed binary order)
 // const TRIGRAMS = '☰☱☲☳☴☵☶☷' // 3-byte binary trigrams (Bagua, reversed binary order)
+// prettier-ignore
 const HEXAGRAMS = '䷀䷁䷂䷃䷄䷅䷆䷇䷈䷉䷊䷋䷌䷍䷎䷏䷐䷑䷒䷓䷔䷕䷖䷗䷘䷙䷚䷛䷜䷝䷞䷟䷠䷡䷢䷣䷤䷥䷦䷧䷨䷩䷪䷫䷬䷭䷮䷯䷰䷱䷲䷳䷴䷵䷶䷷䷸䷹䷺䷻䷼䷽䷾䷿' // 3-byte binary hexagrams (Yì Jīng)
 // Ternary tetragrams and diagrams use 4 bytes, which in JavaScript are encoded
 // using surrogate pairs. That makes it very painful to look up characters by
@@ -83,7 +83,7 @@ export function ching(input, base, from, to) {
   let output = ''
   for (let i = 0, len = data.length; i < len; i++) {
     // Bases <= 45 are case insensitive, so normalize to lowercase
-    const char = base > 45 ? data[i] : data[i].toLocaleLowerCase()
+    const char = base > 45 ? data[i] : data[i].toLowerCase()
     output += b[a.indexOf(char)]
   }
 
