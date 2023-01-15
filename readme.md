@@ -89,7 +89,7 @@ It lets you use a more efficient encoding, like Base85, by avoiding some issues 
 
     #&@?Kh.<=T"CGi<\872T301je:K*P[)qDRsW*f → 𝌈𝌋𝌥𝌤𝌰𝍍𝌓𝌡𝌢𝌹𝌇𝌨𝌬𝍎𝌡𝍁𝌝𝌜𝌗𝌹𝌘𝌕𝌖𝍏𝍊𝌟𝌰𝌏𝌵𝍀𝌎𝍖𝌩𝌷𝌂𝌼𝌏𝍋
 
-A 36 character 128-bit UUID can instead be represented as a string of 20 futuristic looking symbols.
+A 36 character 128-bit UUID can instead be represented as a string of 20 futuristic looking symbols in Base85.
 
     1a181f5d-4d9a-4e6a-9c36-8554b0edddc7 → 𝌙𝌆𝌸𝌙𝌔𝌗𝍋𝌕𝍌𝍎𝌲𝌮𝌸𝍂𝌡𝌜𝍄𝌏𝌰𝍀
     
