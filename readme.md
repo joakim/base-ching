@@ -119,7 +119,7 @@ When your target environment(s) support Unicode and:
 1. You want to show encoded data to users in a visually pleasing way
    - And users don't need to read/speak/type the encoded data (copy/paste is fine)
 2. You want to use encoded data in code/URLs/etc without having to escape characters
-   - Some binary-to-ASCII encodings may conflict with the syntax of various environments
+   - And the extra bytes is an acceptable tradeoff
 3. You want a universal textual representation compatible with all variants of a base
    - Or just convert between different variants of a base
 
