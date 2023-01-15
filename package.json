@@ -1,0 +1,29 @@
+{
+  "name": "base-ching",
+  "version": "0.1.0",
+  "description": "An I Ching alphabet for displaying binary-to-text encodings.",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "base85",
+    "base81",
+    "base64",
+    "base62",
+    "base58",
+    "base45",
+    "base36",
+    "base32",
+    "base16",
+    "encoding",
+    "ascii85",
+    "z85",
+    "z-base-32",
+    "bech32",
+    "hexagram",
+    "tetragram",
+    "iching",
+    "nodeps"
+  ],
+  "author": "joakim",
+  "license": "MIT"
+}
